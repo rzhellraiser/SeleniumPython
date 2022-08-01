@@ -36,14 +36,14 @@ class AddCustomer:
 
     def clickOnCustomersMenu(self):
         element = WebDriverWait(self.driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, self.lnkCustomers_menu_xpath))
+            EC.presence_of_element_located(By.XPATH, self.lnkCustomers_menu_xpath)
         )
         element.click()
         # self.driver.find_element(By.XPATH, self.lnkCustomers_menu_xpath).click()
 
     def clickOnCustomersMenuItem(self):
         element = WebDriverWait(self.driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, self.lnkCustomers_menuitem_xpath))
+            EC.presence_of_element_located(By.XPATH, self.lnkCustomers_menuitem_xpath)
         )
         element.click()
         # self.driver.find_element(By.XPATH, self.lnkCustomers_menuitem_xpath).click()
