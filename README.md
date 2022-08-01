@@ -1,7 +1,7 @@
 # SeleniumPython
 Sample selenium-python test framework
 
-1. Tech stack: Python, Pytest, Jenkins CI.
+1. Tech stack: Selenium, Python, Pytest, , Allure, Jenkins CI.
 2. To run tests:
 
 > Run default browser -> pytest -v -s <path-to-test-file.py>
