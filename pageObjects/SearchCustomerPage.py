@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class SearchCustomer:
-    # Add customer page
+    # Search customer page
     txtEmail_id = "SearchEmail"
     txtFirstName_id = "SearchFirstName"
     txtLastName_id = "SearchLastName"
